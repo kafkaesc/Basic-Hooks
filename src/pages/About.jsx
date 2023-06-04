@@ -1,3 +1,5 @@
+import H1 from '../elements/H1';
+
 export default function About() {
-	return <h1 className="text-3xl font-bold text-center">About Component</h1>;
+	return <H1>About Component</H1>;
 }

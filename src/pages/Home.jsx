@@ -1,3 +1,9 @@
+import H1 from '../elements/H1';
+
 export default function Home() {
-	return <h1 className="text-3xl font-bold text-center">Home Component</h1>;
+	return (
+		<>
+			<H1>Home Component</H1>
+		</>
+	);
 }
