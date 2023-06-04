@@ -4,7 +4,7 @@ export function useCountdown(start) {
 	const [theCountdown, setTheCountdown] = useState(start);
 
 	function decrementTheCountdown() {
-		setTheCountdown((current) => current - 1);
+		if (theCountdown > 0) setTheCountdown((current) => current - 1);
 	}
 
 	return { theCountdown, decrementTheCountdown };
