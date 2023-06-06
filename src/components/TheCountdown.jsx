@@ -8,7 +8,7 @@ export default function TheCountdown() {
 	return (
 		<HookBox>
 			<H2>Countdown</H2>
-			<div className="w-4 inline-block text-center">{theCountdown}</div>
+			<div className="inline-block w-6 text-center">{theCountdown}</div>
 			<Button
 				aria-label="Decrement the countdown"
 				onClick={decrementTheCountdown}

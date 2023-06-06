@@ -8,7 +8,7 @@ export default function CountDownThenUp() {
 	return (
 		<HookBox>
 			<H2>Count Down, Then Up</H2>
-			<div className="w-4 inline-block text-center">{current}</div>
+			<div className="inline-block w-6 text-center">{current}</div>
 			<Button onClick={next}>Next</Button>
 		</HookBox>
 	);
